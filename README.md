@@ -17,8 +17,8 @@ Isabela Lucas Bruxellas (33569286) Tony Liang (39356993) Xue Wang
 ## Project Summary
 
 In this project, we will explore and predict students’ exam performance
-about Electrical DC Machines based on their study time by using linear
-regression (LN) and the K-nearest neighbors (K-NN) algorithm. This
+in Electrical DC Machines based on their study time by using linear
+regression (LN) and the K-nearest neighbours (K-NN) algorithm. This
 result could help students gain insight into the necessary study time
 for specific scores as well as help instructors better understand the
 performance of students.
@@ -27,11 +27,11 @@ As a result of our analysis, we have found the Root mean square
 prediction error(RMSPE) for our LN model to be 0.281, while the RMSPE of
 the K-NN model is 0.257. Both types of regression have a prediction
 error percentage of about 40% (therefore our accuracy is about 60%),
-although the K-NN model is slightly better than LN model here.
+although the K-NN model is slightly better than the LN model here.
 
 This can be attributed to the fact that exam performance could be
 affected by other external factors such as health condition, student IQ,
-stress levels, learning ability and our data set may not be big enough
+stress level, and learning ability. Additionally, our data set may not be big enough
 to directly draw a relationship between just study time and exam
 performance.
 
@@ -54,7 +54,7 @@ You can install the development version of group8 from
 devtools::install_github("tonyliang19/group8")
 ```
 
-Attention: The dependencies version have been listed below. In order to
+Attention: The dependencies version has been listed below. To
 properly run this project, ensure that you are using the same versions
 when running the project in the Dockerfile.
 
